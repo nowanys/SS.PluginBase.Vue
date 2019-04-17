@@ -22,15 +22,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="assets\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="System.Web" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Include="assets\**">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
