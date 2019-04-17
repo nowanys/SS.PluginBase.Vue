@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net4.5.2</TargetFrameworks>
+    <TargetFramework>net4.5.2</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageId>SS.PluginBase.Vue</PackageId>
     <Version>1.0.0</Version>
@@ -19,6 +19,8 @@
     <RepositoryUrl>https://github.com/siteserver/SS.PluginBase.Vue</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>Summary of changes made in this release of the package.</PackageReleaseNotes>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <NuspecFile>SS.PluginBase.Vue.nuspec</NuspecFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,7 +33,7 @@
   
   <ItemGroup>
     <Content Include="assets\**">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 

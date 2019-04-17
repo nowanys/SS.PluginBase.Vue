@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>SS.PluginBase.Vue</id>
+        <version>1.0.0</version>
+        <authors>SiteServer CMS</authors>
+        <description>基于 Vue 的 SiteServer CMS 插件模板</description>
+        <releaseNotes>Extract the assets folder automatically</releaseNotes>
+        <dependencies>
+            <dependency id="Newtonsoft.Json" version="12.0.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="assets\**" target="content/assets" />
+    </files>
+</package>
