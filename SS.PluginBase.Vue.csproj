@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net4.5.2</TargetFrameworks>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>SS.PluginBase.Vue</PackageId>
+    <Version>1.0.0</Version>
+    <Title>基于 Vue 的 SiteServer CMS 插件模板</Title>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>SiteServer CMS</Authors>
+    <Company>SiteServer CMS</Company>
+    <Product></Product>
+    <Description>基于 Vue 的 SiteServer CMS 插件模板</Description>
+    <PackageLicenseUrl>https://github.com/siteserver/SS.PluginBase.Vue/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/siteserver/SS.PluginBase.Vue/</PackageProjectUrl>
+    <PackageIconUrl>https://www.siteserver.cn/assets/images/favicon.png</PackageIconUrl>
+    <Copyright>Copyright © SiteServer CMS</Copyright>
+    <PackageTags>SiteServer CMS Plugin</PackageTags>
+    <RepositoryUrl>https://github.com/siteserver/SS.PluginBase.Vue</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Summary of changes made in this release of the package.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="assets\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Web" />
+  </ItemGroup>
+
+</Project>
