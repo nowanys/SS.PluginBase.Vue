@@ -30,10 +30,5 @@
   <ItemGroup>
     <Reference Include="System.Web" />
   </ItemGroup>
-  
-  <ItemGroup>
-    <None Remove="assets\**" />
-    <Content Include="assets\**" Pack="true" PackageCopyToOutput="true" />
-  </ItemGroup>
 
 </Project>

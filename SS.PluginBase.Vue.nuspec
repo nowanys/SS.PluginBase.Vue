@@ -2,7 +2,7 @@
 <package >
     <metadata>
         <id>SS.PluginBase.Vue</id>
-        <version>1.0.0</version>
+        <version>$version$</version>
         <authors>SiteServer CMS</authors>
         <description>基于 Vue 的 SiteServer CMS 插件模板</description>
         <releaseNotes>Extract the assets folder automatically</releaseNotes>
@@ -11,6 +11,6 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="assets\**" target="content/assets" />
+        <file src="assets\**" target="Content\assets"/>
     </files>
 </package>
