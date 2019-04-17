@@ -8,7 +8,7 @@
 
   dotnet_csproj:
     patch: true
-    file: '**\*.nuspec'
+    file: '**\*.csproj'
     version: '{version}'
     package_version: '{version}'
     assembly_version: '{version}'
