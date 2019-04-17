@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SS.PluginBase.Vue
+namespace SS.PluginBase.Vue.Core
 {
     public enum EDateFormatType
     {

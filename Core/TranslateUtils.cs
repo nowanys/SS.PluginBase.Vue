@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Specialized;
-using System.Text;
-using System.Data;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.Data;
+using System.Text;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Serialization;
 
-namespace SS.PluginBase.Vue
+namespace SS.PluginBase.Vue.Core
 {
     public static class TranslateUtils
     {

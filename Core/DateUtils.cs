@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace SS.PluginBase.Vue
+namespace SS.PluginBase.Vue.Core
 {
     public static class DateUtils
     {

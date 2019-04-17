@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Text;
-using System.Web;
-using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Web;
 
-namespace SS.PluginBase.Vue
+namespace SS.PluginBase.Vue.Core
 {
     public static class StringUtils
     {

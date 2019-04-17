@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.Caching;
 
-namespace SS.PluginBase.Vue
+namespace SS.PluginBase.Vue.Core
 {
     public static class CacheUtils
     {
