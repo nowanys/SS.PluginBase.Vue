@@ -32,9 +32,8 @@
   </ItemGroup>
   
   <ItemGroup>
-    <Content Include="assets\**">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <None Remove="assets\**" />
+    <Content Include="assets\**" Pack="true" PackageCopyToOutput="true" />
   </ItemGroup>
 
 </Project>
