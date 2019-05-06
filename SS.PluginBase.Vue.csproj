@@ -10,9 +10,9 @@
     <Company>SiteServer CMS</Company>
     <Product></Product>
     <Description>基于 Vue 的 SiteServer CMS 插件模板</Description>
-    <PackageLicenseUrl>https://github.com/siteserver/SS.PluginBase.Vue/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicense>GPL-3.0</PackageLicense>
     <PackageProjectUrl>https://github.com/siteserver/SS.PluginBase.Vue/</PackageProjectUrl>
-    <PackageIconUrl>https://www.siteserver.cn/assets/images/favicon.png</PackageIconUrl>
+    <PackageIconUrl>https://www.siteserver.cn/docs/SS.PluginBase.Vue/logo.svg</PackageIconUrl>
     <Copyright>Copyright © SiteServer CMS</Copyright>
     <PackageTags>SiteServer CMS Plugin</PackageTags>
     <RepositoryUrl>https://github.com/siteserver/SS.PluginBase.Vue</RepositoryUrl>
@@ -22,7 +22,6 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
     <PackageReference Include="SiteServer.Plugin" Version="2.3.4" />
   </ItemGroup>
 
